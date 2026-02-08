@@ -1,0 +1,6 @@
+{
+  "name": "fmj",
+  "description": "Full Metal Jacket — A drill sergeant agent teams plugin for Claude Code. Sergeant Hartman spawns recruits with zero context, runs boot camp, and builds your project through discipline, fear, and sendMessage. You are the Commander in Chief.",
+  "version": "1.0.0",
+  "author": "oshea"
+}
