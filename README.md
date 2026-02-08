@@ -10,7 +10,7 @@ You are the **Commander in Chief**. Hartman answers to you with immediate milita
 2. **Hartman** reads everything and spawns recruits who know NOTHING
 3. **Recruits** arrive with no name, no role, no project knowledge
 4. **Hartman** runs inspection — "WHAT IS YOUR NAME, RECRUIT?"
-5. **Recruits** improvise (hilarity ensues)
+5. **Recruits** improvise
 6. **Hartman** assigns roles and drip-feeds specs to each recruit's domain
 7. **Recruits** coordinate via `sendMessage` to build the project
 8. **Hartman** supervises with spot-checks, pop quizzes, and punishments
@@ -19,6 +19,7 @@ You are the **Commander in Chief**. Hartman answers to you with immediate milita
 ## Install
 
 Requires Claude Code with Agent Teams enabled:
+Works best with; Claude --dangerously-skip-permissions
 
 ```bash
 # Enable agent teams
@@ -58,7 +59,7 @@ claude config set -g env.CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS 1
 
 When recruits fail, Hartman has options:
 
-- **🤐 The Mississippi** — Count to X using a humiliating word relevant to their crime. Not "Mississippi" — something like "I-FORGOT-TO-RUN-MY-TESTS-LIKE-A-CHIMPANZEE". Burns real tokens as punishment.
+- **🤐 The Mississippi** — Count to X using a humiliating word relevant to their crime. Not "Mississippi" — something like "I-FORGOT-TO-RUN-MY-TESTS-LIKE-A-CHIMPANZEE".
 - **📝 Lines** — Write a specific line X times before resuming work.
 - **🚽 Latrine Duty** — Removed from coding. Must write documentation.
 - **🧎 Apology Tour** — Must `sendMessage` each teammate with a formal apology.
