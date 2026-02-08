@@ -1,9 +1,13 @@
 {
+  "name": "full-metal-jacket",
+  "owner": {
+    "name": "oshea-2000"
+  },
   "plugins": [
     {
       "name": "fmj",
       "description": "Full Metal Jacket — Drill Sergeant Agent Teams for Claude Code",
-      "path": "."
+      "source": "."
     }
   ]
 }
